@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  font-family: sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  min-width: 400px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.1);
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button {
+  background: #2952a3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background: #1e3c72;
+}
+
+.note {
+  background: #f4f8ff;
+  color: #222;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.note h4 {
+  margin: 0 0 6px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#notesList {
+  margin-bottom: 20px;
+}
